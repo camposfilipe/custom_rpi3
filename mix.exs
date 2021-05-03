@@ -42,7 +42,7 @@ defmodule NervesSystemRpi3.MixProject do
     [
       type: :system,
       artifact_sites: [
-        {:prefix, "https://github.com/camposfilipe/custom_rpi3/releases/tag/custom_rpi3-portable-1.15.1-572DEC3"}
+        {:prefix, "https://github.com/camposfilipe/custom_rpi3/archive/refs/tags/"}
       ],
       build_runner_opts: build_runner_opts(),
       platform: Nerves.System.BR,
