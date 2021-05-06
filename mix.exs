@@ -1,9 +1,9 @@
 defmodule NervesSystemRpi3.MixProject do
   use Mix.Project
 
-  @github_organization "nerves-project"
+  @github_organization "camposfilipe"
   @app :custom_rpi3
-  @source_url "https://github.com/#{@github_organization}/#{@app}"
+  @source_url "https://github.com/camposfilipe/custom_rpi3/archive/refs/tags/"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()
            |> String.trim()
